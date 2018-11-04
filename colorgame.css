@@ -1,0 +1,67 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: cursive;
+}
+button{
+	background: none;
+	font-family: cursive;
+	border: none;
+	height: 100%;
+	text-transform: uppercase;
+	transition: all 0.4s;
+	--webkit-transition: all 1.0s;
+    --moz-transition: all 1.0s;
+    outline: none;
+
+
+
+
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+.squares{
+width: 30%;
+background-color: purple;
+padding-bottom: 30%;
+float: left;
+margin: 1.6%;
+border-radius: 15%;
+transition: background 1.0s;
+--webkit-transition: background 1.0s;
+--moz-transition: background 1.0s;
+}
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+h1{
+	line-height: 1.1;
+	color:white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#stripe{
+	background-color: white;
+	height: 35px;
+	text-align: center;
+	padding:auto auto; 
+}
+
+.selected{
+	background-color: steelblue;
+}
+#colorDisplay{
+	font-size: 200%;
+}
+button:hover {
+  color: white;
+  background: steelblue;
+}
